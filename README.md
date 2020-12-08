@@ -1,4 +1,4 @@
-# differentiable-dare
+# dare-torch
 
 Implementation of a differetiable discrete-time algebraic Riccati equation (DARE) solver in PyTorch.
 
@@ -10,6 +10,9 @@ for the matrix P, and computes the derivatives of P with respect to input matric
 
 Details on the method for differentiating the DARE are available in this paper: [Infinite-Horizon Differentiable Model Predictive Control](https://arxiv.org/pdf/2001.02244.pdf)
 
+## Numerical tests for validity of derivative
+
+![Numerical Tests](https://github.com/sebastian-east/dare-torch/workflows/Numerical%20Tests/badge.svg?branch=main)
 
 ## Usage
 ```
