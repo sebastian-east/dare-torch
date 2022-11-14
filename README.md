@@ -10,6 +10,20 @@ for the matrix P, and computes the derivatives of P with respect to input matric
 
 Details on the method for differentiating the DARE are available in this paper: [Infinite-Horizon Differentiable Model Predictive Control](https://arxiv.org/pdf/2001.02244.pdf)
 
+## License
+
+This code is available under the unlicense: do whatever you want with it. If you find it useful in your research, I would appreciate it if you could include the following citation in any resulting publications:
+
+```
+@article{East2020,
+  title={Infinite-Horizon Differentiable Model Predictive Control},
+  author={Sebastian East and Marco Gallieri and Jonathan Masci and Jan Koutn{\'i}k and Mark Cannon},
+  journal={ArXiv},
+  year={2020},
+  volume={abs/2001.02244}
+}
+```
+
 ## Numerical tests for validity of derivative
 
 ![Numerical Tests](https://github.com/sebastian-east/dare-torch/workflows/Numerical%20Tests/badge.svg?branch=main)
