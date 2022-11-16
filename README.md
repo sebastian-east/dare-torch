@@ -26,7 +26,7 @@ This code is available under the unlicense: do whatever you want with it. If you
 
 ## Numerical tests for validity of derivative
 
-![Numerical Tests](https://github.com/sebastian-east/dare-torch/workflows/Numerical%20Tests/badge.svg?branch=main)
+![Numerical Tests](https://github.com/sebastian-east/dare-torch/workflows/Numerical%20Tests/badge.svg?branch=main) <- this failure is caused by a version conflict in the required packages that has arisen since I wrote the code; the derivative is still working correctly when run locally. I'll fix the github action when I've got some time available.
 
 ## Usage
 ```
